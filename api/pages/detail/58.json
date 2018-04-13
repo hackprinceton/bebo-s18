@@ -1,0 +1,132 @@
+{
+    "id": 58,
+    "meta": {
+        "type": "about.PeoplePage",
+        "html_url": "http://hackprinceton.com/about/team/",
+        "slug": "team",
+        "show_in_menus": true,
+        "seo_title": "",
+        "search_description": "",
+        "first_published_at": "2018-04-09T12:34:26.218838Z",
+        "parent": {
+            "id": 24,
+            "meta": {
+                "type": "guide.NormalPage",
+                "html_url": "http://hackprinceton.com/about/"
+            },
+            "title": "About"
+        }
+    },
+    "title": "Organizing Team",
+    "intro": "",
+    "people": [
+        {
+            "type": "person",
+            "value": {
+                "name": "David Fan",
+                "company_and_position": "Co-Director",
+                "bio": "",
+                "email": "",
+                "image": 82,
+                "url": ""
+            },
+            "id": "2c27e8b8-fc15-4e12-a81b-3b6720cbeea5"
+        },
+        {
+            "type": "person",
+            "value": {
+                "name": "Nathan Alam",
+                "company_and_position": "Co-Director",
+                "bio": "",
+                "email": "",
+                "image": 77,
+                "url": ""
+            },
+            "id": "43739a76-7272-47bb-b301-ed2d9a49ce92"
+        },
+        {
+            "type": "person",
+            "value": {
+                "name": "Berthy Feng",
+                "company_and_position": "Marketing Head",
+                "bio": "",
+                "email": "",
+                "image": 81,
+                "url": ""
+            },
+            "id": "25feb471-c885-46f4-8571-05593e464ff9"
+        },
+        {
+            "type": "person",
+            "value": {
+                "name": "Frank Maloney",
+                "company_and_position": "Partnerships Head",
+                "bio": "",
+                "email": "",
+                "image": 79,
+                "url": ""
+            },
+            "id": "b3202baf-9c02-4a1c-b6cb-d1b7fb4c60b9"
+        },
+        {
+            "type": "person",
+            "value": {
+                "name": "Yowan Ramchoreeter",
+                "company_and_position": "Finance Head",
+                "bio": "",
+                "email": "",
+                "image": 75,
+                "url": ""
+            },
+            "id": "b739105e-3925-4f11-b2a8-56fa079210ce"
+        },
+        {
+            "type": "person",
+            "value": {
+                "name": "Yanjun Yang",
+                "company_and_position": "Operations Head",
+                "bio": "",
+                "email": "",
+                "image": 78,
+                "url": ""
+            },
+            "id": "96ddde7b-de0d-4150-815c-0a409b8223ff"
+        },
+        {
+            "type": "person",
+            "value": {
+                "name": "Jessica Ho",
+                "company_and_position": "Experience Co-Head",
+                "bio": "",
+                "email": "",
+                "image": 76,
+                "url": ""
+            },
+            "id": "5a7d69ce-51b5-4a72-88d2-0401803c3914"
+        },
+        {
+            "type": "person",
+            "value": {
+                "name": "Lila Abreu",
+                "company_and_position": "Experience Co-Head",
+                "bio": "",
+                "email": "",
+                "image": 80,
+                "url": ""
+            },
+            "id": "017ded4c-0f3d-4bf8-8334-c2444755a740"
+        },
+        {
+            "type": "person",
+            "value": {
+                "name": "Roland Fong",
+                "company_and_position": "Dev Head",
+                "bio": "",
+                "email": "",
+                "image": 74,
+                "url": ""
+            },
+            "id": "4b39bb6c-cfb9-40d6-8389-ad74b5e94452"
+        }
+    ]
+}

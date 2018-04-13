@@ -1,0 +1,53 @@
+{
+    "id": 17,
+    "meta": {
+        "type": "guide.NormalPage",
+        "html_url": "http://hackprinceton.com/attend/",
+        "slug": "attend",
+        "show_in_menus": true,
+        "seo_title": "",
+        "search_description": "",
+        "first_published_at": "2018-01-22T16:45:20.760285Z",
+        "parent": {
+            "id": 12,
+            "meta": {
+                "type": "home.HomePage",
+                "html_url": "http://hackprinceton.com/"
+            },
+            "title": "HackPrinceton Spring 2018"
+        }
+    },
+    "title": "Attend",
+    "body": [
+        {
+            "type": "paragraph",
+            "value": "<ul><li><p>Registration opens at 5:00pm on Friday, March 30 at the Friend Center. Make sure to bring your student ID for registration - we’ll include a reminder in the packing list.</p></li><li><p>For public transit travel routes, see the travel page for tips on getting to campus by train.<br/>To join a charter bus waitlist, email <a href=\"mailto:travel@hackprinceton.com\">travel@hackprinceton.com</a>.</p></li><li><p>If you’re arriving by car, train, or plane, refer to our travel page for details about parking and getting to campus.</p></li><li><p>If you were offered a travel subsidy on your dashboard, or if you paid a bus deposit, you must visit our travel booth on Saturday to claim reimbursement. Save your receipts and make sure to have a copy of them on-site. Details on the claim process are posted on the travel page.</p></li></ul>",
+            "id": "23c324d6-957f-40ff-86a9-d4edfe6530ba"
+        },
+        {
+            "type": "heading",
+            "value": "Map",
+            "id": "b03f7106-4871-4127-ac3c-6dd489ccc7e0"
+        },
+        {
+            "type": "paragraph",
+            "value": "<p><a href=\"https://drive.google.com/file/d/0B8qjoTpoT_NfMHVSSk4wY0JoekU/view\">This</a> is a map with key locations for HackPrinceton. You can also refer to Princeton’s interactive map to find other locations: <a href=\"http://m.princeton.edu/map/\">http://m.princeton.edu/map/</a></p><p><br/></p>",
+            "id": "0bff3926-0fda-41f3-95f6-a1b6c6affdab"
+        },
+        {
+            "type": "heading",
+            "value": "Check-in and Checkout",
+            "id": "f4a4f765-9fca-4917-9165-a46e648a8e9a"
+        },
+        {
+            "type": "raw_html",
+            "value": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1520.3227812653406!2d-74.65169900000001!3d40.350208!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c3e6c2c6e8d9f9%3A0x997e4572848080d8!2sFriend+Center+for+Engineering+Education%2C+William+St%2C+Princeton%2C+NJ+08540!5e0!3m2!1sen!2sus!4v1516599519000\" width=\"600\" height=\"450\" frameborder=\"0\" style=\"border:0\" allowfullscreen></iframe>",
+            "id": "087a7f38-4732-4fe1-97b8-1e680602c0c0"
+        },
+        {
+            "type": "paragraph",
+            "value": "<p>HackPrinceton registration and check-in will take place in the Friend Center (<a href=\"https://m.princeton.edu/map/campus?feed=91eda3cbe8&amp;group=princeton&amp;featureindex=0616&amp;category=91eda3cbe8%3AALL&amp;_b=%5B%7B%22t%22%3A%22Map%22%2C%22lt%22%3A%22Map%22%2C%22p%22%3A%22index%22%2C%22a%22%3A%22%22%7D%5D\">map</a>), at the northeast corner of campus. You should plan on arriving around 5-6pm on Friday, March 30th and leaving around 3pm on Sunday, April 1st.</p>",
+            "id": "48fcb4c1-0a17-4929-9b81-f3ef1a973a2d"
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "id": 12,
+    "meta": {
+        "type": "home.HomePage",
+        "html_url": "http://hackprinceton.com/",
+        "slug": "hackprinceton-spring-2018",
+        "show_in_menus": true,
+        "seo_title": "",
+        "search_description": "",
+        "first_published_at": "2018-01-19T01:05:54.729276Z",
+        "parent": null
+    },
+    "title": "HackPrinceton Spring 2018",
+    "date": "Mar 30 - Apr 1",
+    "tagline": "Join Us This Spring",
+    "about": "<p>Twice a year, HackPrinceton welcomes 600 developers and designers from across the country to create incredible software and hardware projects. For 36 hours this spring, from March 30 to April 1, we will provide a warm and collaborative environment for you to build out brilliant, innovative, and impactful ideas.</p><p>At HackPrinceton, you'll meet fellow hackers, learn new technologies, and work alongside seasoned mentors. We'll have free food, swag, workshops, lecture series, mentorship, prizes, game, free food, and more. Don't have a team, or even an idea? Don't worry! We'll give you the tools to build something incredible.</p><p>Whether you’re new to coding/design/hardware or a seasoned hacker, you have a place at HackPrinceton. All we expect is a passion for learning, a willingness to collaborate with people of different backgrounds, and a desire to benefit the world with technology. We'd love to see you here!</p>"
+}

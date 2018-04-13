@@ -1,0 +1,25 @@
+
+@font-face {
+    font-family: 'moon';
+    src: url("../fonts/moon-bold-webfont.c004d44c4454.woff2") format('woff2'),
+         url("../fonts/moon-bold-webfont.01900fb92f81.woff") format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'moon';
+    src: url("../fonts/moon-light-webfont.1b6ce189aa5a.woff2") format('woff2'),
+         url("../fonts/moon-light-webfont.45cc8c82e940.woff") format('woff');
+    font-weight: lighter;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'moon';
+    src: url("../fonts/moon-regular-webfont.cf2099b584a0.woff2") format('woff2'),
+         url("../fonts/moon-regular-webfont.38625e02ea7c.woff") format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}

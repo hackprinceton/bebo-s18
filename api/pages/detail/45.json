@@ -1,0 +1,21 @@
+{
+    "id": 45,
+    "meta": {
+        "type": "redirection.RedirectPage",
+        "html_url": "http://hackprinceton.com/attend/host/",
+        "slug": "host",
+        "show_in_menus": true,
+        "seo_title": "Request Hosting",
+        "search_description": "",
+        "first_published_at": "2018-03-25T03:41:08.407596Z",
+        "parent": {
+            "id": 17,
+            "meta": {
+                "type": "guide.NormalPage",
+                "html_url": "http://hackprinceton.com/attend/"
+            },
+            "title": "Attend"
+        }
+    },
+    "title": "Request Hosting"
+}

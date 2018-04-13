@@ -1,0 +1,87 @@
+@import 'hp-styles/settings';
+@import 'hp-styles/mixins';
+
+.description {
+  margin-top: 1em;
+  margin-bottom: 2em;
+}
+
+.faq-wrap {
+  @include breakpoint(medium) {
+    background-position: center calc(50% + #{$topbar-height});
+    background-repeat: no-repeat space;
+    background-size: 40px;
+    margin-top: 0;
+  }
+
+  @include breakpoint(medium only) {
+    // hack to fix layout issue on medium screens
+    // where the faqs is wider than the viewport
+    margin-left: -50px;
+    margin-right: -50px;
+  }
+}
+
+.faq,
+.faq-sizer {
+  box-sizing: border-box;
+  padding: 0;
+  width: auto;
+
+  .faq-title {
+    font-size: 1.75rem;
+    margin-bottom: 0;
+
+    & > a {
+      color: $black;
+      cursor: text;
+    }
+  }
+
+  .faq__content {
+    margin-bottom: 1rem;
+    line-height: 1.6;
+
+    ul {
+      margin-top: 1rem;
+    }
+  }
+
+  // remove comments to enable forced expansion on large screens
+  // @include breakpoint(small only) {
+    .faq__content {
+      max-height: 0;
+      overflow-y: hidden;
+      transition: max-height .75s ease-out;
+    }
+
+    &.expanded .faq__content {
+      max-height: 100vh;
+      transition-timing-function: ease-in;
+    }
+
+    .faq-title {
+      & > a {
+        cursor: pointer;
+
+        &::after {
+          content: '⮀';
+          display: inline-block;
+          font-size: .75rem;
+          margin-left: .75em;
+          position: relative;
+          top: -.25em;
+          transition: transform 0.7s linear;
+        }
+      }
+    }
+
+    &.expanded .faq-title {
+      & > a {
+        &::after {
+          transform: rotate(.25turn);
+        }
+      }
+    }
+  }
+// }

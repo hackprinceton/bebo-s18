@@ -1,0 +1,33 @@
+{
+    "id": 13,
+    "meta": {
+        "type": "guide.NormalPage",
+        "html_url": "http://hackprinceton.com/about/sponsors/",
+        "slug": "sponsors",
+        "show_in_menus": true,
+        "seo_title": "HackPrinceton Sponsors",
+        "search_description": "HackPrinceton partners",
+        "first_published_at": "2018-01-22T22:47:34.518476Z",
+        "parent": {
+            "id": 24,
+            "meta": {
+                "type": "guide.NormalPage",
+                "html_url": "http://hackprinceton.com/about/"
+            },
+            "title": "About"
+        }
+    },
+    "title": "Sponsors",
+    "body": [
+        {
+            "type": "paragraph",
+            "value": "<p>Interested in partnering with HackPrinceton? Message us at <a href=\"mailto:sponsors@hackprinceton.edu\">sponsors@hackprinceton.edu</a>.</p><p>This event is made possible by the following sponsors:</p>",
+            "id": "3955a059-8a56-4634-941e-ab33e3656960"
+        },
+        {
+            "type": "sponsors",
+            "value": null,
+            "id": "821b0576-f2d9-4581-9584-b5833d4d7f69"
+        }
+    ]
+}

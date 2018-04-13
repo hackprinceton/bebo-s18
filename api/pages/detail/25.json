@@ -1,0 +1,38 @@
+{
+    "id": 25,
+    "meta": {
+        "type": "guide.NormalPage",
+        "html_url": "http://hackprinceton.com/attend/accomodations/",
+        "slug": "accomodations",
+        "show_in_menus": true,
+        "seo_title": "",
+        "search_description": "",
+        "first_published_at": "2018-01-22T23:03:08.934145Z",
+        "parent": {
+            "id": 17,
+            "meta": {
+                "type": "guide.NormalPage",
+                "html_url": "http://hackprinceton.com/attend/"
+            },
+            "title": "Attend"
+        }
+    },
+    "title": "Accomodations",
+    "body": [
+        {
+            "type": "heading",
+            "value": "Overnight Accomodations",
+            "id": "2291866f-6ab5-4f8c-bac1-e3cd91fc2ab4"
+        },
+        {
+            "type": "paragraph",
+            "value": "<p>Unlike what you might be used to at other hackathons, <b>Princeton does not permit sleeping overnight in the venue</b> due to fire code restrictions. Instead of sleeping at the venue, you have three options:</p><ol><li>Arrange to stay with a friend overnight</li><li>Arrange to stay at a local hotel. We do not have discount packages, but some nearby affordable hotels include the <a href=\"https://www.redroof.com/property/nj/lawrenceville/RRI111\">Red Roof Inn</a> and <a href=\"http://doubletree3.hilton.com/en/hotels/new-jersey/doubletree-by-hilton-hotel-princeton-PCTDTDT/index.html\">DoubleTree by Hilton</a></li><li>Request that we match you with a Princeton student host</li></ol><p>For the 3rd option: We can match you with a Princeton student host by request to stay with overnight. You’ll need to bring your own sleeping bag or air mattress, since you’ll likely be sharing floor space with other participants. Sign up for a host at <a href=\"https://localhost.hackprinceton.com/\">https://localhost.hackprinceton.com/</a>.</p>",
+            "id": "801918ce-6791-42ff-9a02-e29753140d2c"
+        },
+        {
+            "type": "paragraph",
+            "value": "",
+            "id": "9a89a2ff-e1d1-4f3e-bda0-a741090eae7f"
+        }
+    ]
+}

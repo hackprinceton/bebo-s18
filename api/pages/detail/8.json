@@ -1,0 +1,88 @@
+{
+    "id": 8,
+    "meta": {
+        "type": "guide.NormalPage",
+        "html_url": "http://hackprinceton.com/about/past-highlights/",
+        "slug": "past-highlights",
+        "show_in_menus": false,
+        "seo_title": "Past Highlights",
+        "search_description": "Past highlights from HackPrinceton",
+        "first_published_at": "2018-01-19T19:59:05.859834Z",
+        "parent": {
+            "id": 24,
+            "meta": {
+                "type": "guide.NormalPage",
+                "html_url": "http://hackprinceton.com/about/"
+            },
+            "title": "About"
+        }
+    },
+    "title": "Past Highlights",
+    "body": [
+        {
+            "type": "paragraph",
+            "value": "<p>HackPrinceton Fall 2017 was another successful weekend of fun hacking and learning! Here are highlights from previous hackathons, including winning projects, speakers, and events.</p>",
+            "id": "8ff2d932-3f2a-40e5-a4df-df6c4c29088b"
+        },
+        {
+            "type": "raw_html",
+            "value": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/Cs04fXu9Vqs?rel=0\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>",
+            "id": "4cf1d26a-468a-4446-9abf-727586d25baf"
+        },
+        {
+            "type": "heading",
+            "value": "Winners",
+            "id": "a56b77a0-0f4b-4fce-bd2d-f391d3efb685"
+        },
+        {
+            "type": "paragraph",
+            "value": "<h3><a href=\"https://devpost.com/software/gowiththeflow-b3grze\">GoWithTheFlow</a> (Fall 2017)</h3><h5>Best Overall, Best Machine Learning Hack, Best Use of AWS</h5><p>Given a video, GoWithTheFlow uses machine learning and computer vision to analyze the flow of cars, people, or any other moving objects. The open-source app provides useful information for crowd control and urban planning.</p><p><embed alt=\"GoWithTheFlow Team\" embedtype=\"image\" format=\"left\" id=\"11\"/><br/></p>",
+            "id": "a1158a2d-4bba-4963-9423-04e3cbef94d0"
+        },
+        {
+            "type": "paragraph",
+            "value": "<h3><a href=\"https://devpost.com/software/princeton-hack-2017\">TrackTive</a> (Spring 2017)</h3><h2></h2><h5>Best Overall (sponsored by Vitech)</h5><p>TrackTive is a DJ controller that allows the user to wirelessly control a virtual turntable. You no longer need to drop hundreds of dollars on DJ equipment to make sweet mashups!</p><p><embed alt=\"TrackTive Demo\" embedtype=\"image\" format=\"left\" id=\"8\"/><br/></p>",
+            "id": "38214bd3-3742-4a8b-aecd-e072f089c0d4"
+        },
+        {
+            "type": "paragraph",
+            "value": "<h3><a href=\"https://devpost.com/software/fib\">FiB</a> (Fall 2016)</h3><h2></h2><h5>Best Moonshot (sponsored by Google)</h5><p>This Chrome extension generated a wave of media attention as a solution to fake news. The FiB team met at HackPrinceton and immediately created a product with real social impact. FiB analyzes the authenticity of posts on your Facebook news feed, enabling you to weed out the fake news.<br/></p><p><embed alt=\"FiB Team\" embedtype=\"image\" format=\"left\" id=\"3\"/><br/></p>",
+            "id": "dff12ec7-aa56-4a1a-9af3-524e45fe904b"
+        },
+        {
+            "type": "heading",
+            "value": "Speakers",
+            "id": "346e43e5-a65d-42fe-8e25-4027f97892c1"
+        },
+        {
+            "type": "paragraph",
+            "value": "<h3>Dan Levin</h3><h5>President and COO Emeritus of Box</h5><p>We had the privilege of welcoming Dan Levin to HackPrinceton Fall 2017. Dan served as the President and COO of <a href=\"http://www.box.com/\">Box</a> for seven years and continues to serve as an active board member. He helped lead the cloud management and file-sharing service from startup to enterprise level. Dan offered some sage advice for aspiring entrepreneurs. He encouraged attendees to just \"go for it\" while keeping the big picture in mind.<br/></p><p><embed alt=\"Dan Levin\" embedtype=\"image\" format=\"left\" id=\"7\"/><br/></p>",
+            "id": "b45549a0-7fd4-42af-8b15-688da85f4b88"
+        },
+        {
+            "type": "paragraph",
+            "value": "<h3>Jacob Lee</h3><h5>Co-Founder of StdLib</h5><p>Jacob Lee is an example of someone who just \"went for it.\" After graduating with a Computer Science degree from Princeton, Jacob co-founded <a href=\"https://stdlib.com/\">StdLib</a>, which organizes the world's APIs into the \"standard library of the internet.\" StdLib has already raised $2 million in first-round seed funding. At HackPrinceton Fall 2017, Jacob shared his inspiring path to entrepreneurship. Although he initially knew nothing about computer science, he immersed himself in tech, working at Google and then co-founding StdLib.<br/></p><p><embed alt=\"Jacob Lee\" embedtype=\"image\" format=\"left\" id=\"6\"/><br/></p>",
+            "id": "17646f45-61d6-4809-81b2-d7a191920982"
+        },
+        {
+            "type": "heading",
+            "value": "Events",
+            "id": "d37a00b0-082e-41a8-80ab-15ab16d6a324"
+        },
+        {
+            "type": "paragraph",
+            "value": "<h3>The Princeton Tigerlilies</h3><p>On the first day of HackPrinceton Fall 2017, hackers were treated to quite the serenade. Princeton's own a cappella group, the <a href=\"http://www.theprincetontigerlilies.com/\">Tigerlilies</a>, treated everyone to a live performance!</p><p><embed alt=\"Tigerlilies\" embedtype=\"image\" format=\"left\" id=\"12\"/><br/></p>",
+            "id": "a72c473f-6a65-4f17-9e84-ccad532fb066"
+        },
+        {
+            "type": "paragraph",
+            "value": "<h3>Soccer Darts</h3><p>On the second day of hacking, attendees took a break from work and released their pent-up energy on soccer darts!<br/></p><p><embed alt=\"Soccer Darts\" embedtype=\"image\" format=\"left\" id=\"13\"/><br/></p>",
+            "id": "4e77efcd-f8f8-4966-9612-ec4694170379"
+        },
+        {
+            "type": "paragraph",
+            "value": "<h3>Therapy Dogs</h3><p>Some cuddly friends made their way to the Friend Center on Sunday. It's safe to say they were the MVPs of HackPrinceton Fall 2017!<br/></p><p><embed alt=\"Therapy Dogs\" embedtype=\"image\" format=\"left\" id=\"14\"/><br/></p>",
+            "id": "123e50ce-d2aa-4726-b162-e30d287b0bd5"
+        }
+    ]
+}

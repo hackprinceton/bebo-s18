@@ -1,0 +1,281 @@
+@import 'hp-styles/settings';
+@import 'hp-styles/mixins';
+
+.small_flower{
+  max-width: 100px;
+  display: inline-block;
+  vertical-align: text-bottom;
+}
+
+li.test-case {
+  list-style-image: url('/static/img/flower_2.svg');
+}
+
+.link {
+  float: left;
+  width: 25%;
+  text-align: center;
+  @include breakpoint(medium down){
+    width: 50%;
+  }
+  @include breakpoint(small down){
+    width: 100%;
+  }
+}
+
+
+a {
+  font-size: 1.28571rem;
+}
+/* Clear floats after the columns */
+.link_row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.events{
+  float:left;
+  text-align: left;
+/*   margin-right: 2.5%; */
+  padding-right: 1.25%;
+  width:50%;
+  @include breakpoint(medium down){
+    width: 100%;
+  }
+}
+
+.announcements{
+  float:right;
+  text-align: left;
+  width:50%;
+  @include breakpoint(medium down){
+    width: 100%;
+  }
+}
+
+.template-homepage {
+  #mlh-trust-badge {
+    display: block;
+    max-width: 100px;
+    min-width: 50px;
+    position: absolute;
+    right: 20px;
+    top: $topbar-height;
+    width: 10%;
+    z-index: 1;
+
+    @include breakpoint(medium) {
+      right: 50px;
+    }
+
+    img {
+      width: 100%;
+    }
+  }
+
+  .splash {
+    min-height: calc(100vh - #{$topbar-height});
+    overflow: hidden;
+    position: relative;
+
+    @include breakpoint(medium down) {
+      @media screen and (max-aspect-ratio: 2/3) {
+        min-height: 160vw;
+      }
+    }
+
+    @include breakpoint(large) {
+        left: -1.5vw;
+        min-height: 50em;
+    }
+
+    @include breakpoint(xxlarge) {
+      margin-left: -5vw;
+      width: 110%;
+    }
+
+    &::before {
+      // TODO: Retinafy
+      background: url('/static/img/flowers_box.png') no-repeat center top;
+      background-clip: padding-box;
+      background-size: contain;
+      content: '';
+      height: 100%;
+      width: 100%;
+      position: absolute;
+      left: 0;
+      padding-top: 0;
+      padding-bottom: 0;
+      z-index: -1;
+
+      @include breakpoint(medium down) {
+        @media screen and (min-aspect-ratio: 2/3) {
+          background-image: url('/static/img/flower_mask.png');
+          background-origin: content-box;
+          background-size: 75%;
+          padding: 1em;
+          opacity: 0.25;
+        }
+
+        @media screen and (min-aspect-ratio: 1/1) {
+          background-size: contain;
+        }
+      }
+
+      @include breakpoint(medium only) {
+        @media screen and (min-aspect-ratio: 7/11) {
+          background-position-y: center;
+        }
+      }
+
+      @include breakpoint(large up) {
+        background-position: -2.5vw center;
+        background-size: 40em;
+      }
+
+      @include breakpoint(xlarge up) {
+        background-size: 45em;
+      }
+    }
+
+    .main-text {
+      position: absolute;
+      bottom: 1em;
+
+      @include breakpoint(large up) {
+        @include vertical-center;
+
+        bottom: auto;
+        left: 45%;
+        width: 50%;
+      }
+
+      @include breakpoint(xlarge up) {
+        left: 45%;
+      }
+    }
+
+    .title {
+      color: $hp-pink;
+      font-size: 16vw;
+      line-height: 1;
+
+      @include breakpoint(768px) {
+        font-size: 18vw;
+        @media screen and (min-aspect-ratio: 1/1) {
+          font-size: 17vh;
+        }
+      }
+
+      @include breakpoint(large) {
+        font-size: 7em;
+      }
+
+      @include breakpoint(xlarge) {
+        font-size: 8em;
+      }
+
+      @include breakpoint(xxlarge) {
+        font-size: 9em;
+      }
+
+      .part {
+        display: block;
+      }
+    }
+
+    .tagline {
+      color: $hp-turquoise;
+      font-size: 5.5vw;
+
+      @include breakpoint(medium down) {
+        @media screen and (min-aspect-ratio: 1/1) {
+          font-size: 5.5vh;
+        }
+      }
+
+      @include breakpoint(large up) {
+        font-size: 1.75em;
+      }
+
+      @include breakpoint(1122px) {
+        font-size: 2em;
+      }
+
+      .part {
+        display: block;
+
+        @include breakpoint (large up) {
+          display: inline;
+
+          &:first-child::after {
+            content: ' •';
+          }
+        }
+      }
+    }
+
+    .followthrough {
+      @include font-subheading;
+      font-weight: bold;
+      margin-top: 1em;
+      text-transform: uppercase;
+
+      .button {
+        font-size: 4vw;
+
+        @include breakpoint(medium down) {
+          @media screen and (min-aspect-ratio: 1/1) {
+            font-size: 3.5vh;
+          }
+        }
+
+        @include breakpoint(large up) {
+          font-size: 1.25em;
+        }
+      }
+    }
+  }
+
+  .about {
+    margin-bottom: 5em;
+
+    @include breakpoint(small only) {
+      margin-top: 3em;
+      max-width: 30rem;
+    }
+    @include breakpoint(medium only) {
+      margin-top: 2em;
+      max-width: 40rem;
+    }
+
+    .main-text {
+      @include breakpoint(medium only) {
+        margin-top: 5em;
+      }
+
+      &::first-line {
+        @include font-subheading;
+        color: $hp-blue;
+        font-size: 1.75em;
+        font-weight: bold;
+        //text-transform: uppercase;
+      }
+
+      p {
+        line-height: 1.75;
+
+        @include breakpoint(medium) {
+          font-size: 1.25em;
+        }
+      }
+    }
+  }
+
+  .sponsors {
+    @include breakpoint(medium down) {
+      padding-top: 3em;
+    }
+  }
+}

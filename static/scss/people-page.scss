@@ -1,0 +1,36 @@
+@import 'hp-styles/settings';
+@import 'hp-styles/mixins';
+
+.template-peoplepage {
+  .people {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 5em;
+  }
+
+  .person {
+    .picture {
+      border-radius: 50%;
+    }
+
+    .meta {
+      text-align: center;
+
+      .name {
+        text-align: center;
+        font-size: 1.75em;
+        margin-top: .75em;
+        margin-bottom: 0;
+      }
+
+      .company-and-position {
+        margin-bottom: 0;
+      }
+    }
+
+    .bio {
+      font-size: 12px;
+    }
+  }
+}

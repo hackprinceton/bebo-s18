@@ -1,0 +1,43 @@
+{
+    "id": 5,
+    "meta": {
+        "type": "guide.NormalPage",
+        "html_url": "http://hackprinceton.com/attend/packing-list/",
+        "slug": "packing-list",
+        "show_in_menus": true,
+        "seo_title": "Packing List",
+        "search_description": "Things to bring to HackPrinceton Spring 2018",
+        "first_published_at": "2018-01-18T21:52:26.101873Z",
+        "parent": {
+            "id": 17,
+            "meta": {
+                "type": "guide.NormalPage",
+                "html_url": "http://hackprinceton.com/attend/"
+            },
+            "title": "Attend"
+        }
+    },
+    "title": "Packing List",
+    "body": [
+        {
+            "type": "heading",
+            "value": "Things You'll Need",
+            "id": "e08eda45-4b41-45a5-af61-efca684df5d5"
+        },
+        {
+            "type": "paragraph",
+            "value": "<p></p><ul><li><b>Student ID: </b>You’ll need this to check in to the event.</li></ul><ul><li><b>Government-issued ID</b>: If you want to borrow any hardware from our lab, you’ll need to have a government-issued ID (like a driver’s license) in addition to your student ID<b>. </b></li></ul><ul><li><b>Laptop</b>: Desktops aren’t great travel companions<b>. </b></li></ul><ul><li><b>Chargers (laptop, phone, etc.)</b>: Make sure to remember chargers for everything you’re bringing.</li></ul><ul><li><b>Headphones</b>: With so many hackers in one building, it can get a bit loud, so bring headphones if you want to get some quiet time.</li></ul><ul><li><b>Sleeping bag, air mattress, and/or pillow</b>: If you’re staying with a Princeton student host, you’ll need to bring something to sleep on.</li></ul><ul><li><b>Towel and toiletries</b>: You’ll definitely want to shower over the weekend.<b> </b></li></ul><ul><li><b>Layers for 30-60 degree weather</b>: New Jersey has wild temperature swings, so bring a warm coat and clothes suitable for a wide range of conditions.<b> </b></li></ul><ul><li><b>Reusable water bottle</b>: If you have one, bring it and help cut down on waste.</li></ul>",
+            "id": "3bdeb329-e2c1-4d28-82c5-718d34b54708"
+        },
+        {
+            "type": "heading",
+            "value": "Things You Won't Need",
+            "id": "2962b3eb-3965-433c-a8af-73d1894b5a80"
+        },
+        {
+            "type": "paragraph",
+            "value": "<p></p><ul><li><b>Money for food</b>: We’ll be providing all the meals and snacks this weekend, so it’s not necessary to bring money specifically for food. (The venue is close to lots of restaurants, though, so do bring some if you want to explore!)</li></ul><ul><li><b>Large suitcase</b>: There’s limited space for bags, so pack light. A duffel bag is a good idea.</li></ul><p></p>",
+            "id": "bac6f504-d69c-4136-80c2-d59ee84fc99c"
+        }
+    ]
+}
